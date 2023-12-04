@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "homeworkweb6"
+version = "0.1.0"
+description = ""
+authors = ["Bohdan Sikan <sikanbog@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2-binary = "^2.9.9"
+faker = "^20.1.0"
+logging = "^0.4.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
